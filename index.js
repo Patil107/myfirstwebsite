@@ -8,6 +8,8 @@ let elements = document.getElementsByClassName('signup-container');
 console.log(elements[0]); // Access the first element with the class 'signup-container'
 
 
+
+
 for (let i = 0; i < elements.length; i++) {
     console.log(elements[i].innerHTML);
 }
